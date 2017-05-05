@@ -1,0 +1,54 @@
+#logo {
+	max-width: 70px;
+	margin-left: $xl;
+	&:after {
+		content: '';
+		background-color: $black;
+		height: 3px;
+	    width: 29px;
+	    position: absolute;
+	    margin-top: 40px;
+    	margin-left: 15px;
+	}
+}
+
+.icon {
+	border: $black 3px solid;
+	border-radius: 50%;
+	&.social {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+	}
+	&.contact {
+		.pen-img { 
+			transform: translateY(-100%);
+			transition: 0.3s ease-out transform;
+		}
+		.contact-img {
+			transform: translateY(-117%);
+			transition: 0.3s ease-out transform;
+		}
+		height: 55px;
+		width: 55px;
+		top: 35px;
+		right: 35px;
+		overflow: hidden;
+		z-index: 4;
+		&:hover {
+			cursor: pointer;
+			.pen-img {
+				transition: 0.3s ease-out transform;
+				transform: translateY(0%);
+			}
+			.contact-img {
+				transition: 0.3s ease-out transform;
+				transform: translateY(100%);
+			}
+		}
+	}
+}
+.socials { 
+	margin-left: $xl; 
+	top: 90%;
+}

@@ -1,0 +1,15 @@
+.title {
+	&.title-h1 {
+		font-size: $fs-xl;
+		font-weight: $fw-m;
+		line-height: $lh-14;
+		padding-left: $xl;
+	}
+	&.title-h2 {
+		font-family: $serif;
+		font-weight: $fw-base;
+		font-size: $fs-l;
+		padding-left: $xl;
+		padding-bottom: $l;	
+	}
+}

@@ -1,0 +1,8 @@
+.fixed { position: fixed; }
+.rel { position: relative; }
+.abs { position: absolute; }
+
+.centered-block {
+	top: 35%;
+	transform: translateY(-35%);	
+}

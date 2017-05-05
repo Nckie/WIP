@@ -1,0 +1,19 @@
+.modal {
+	top: 0;
+	left: 0;
+	background-color: #FF4D80;
+	// background-color: #D81E5B;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateX(100%);
+	transition: 1s transform;
+	padding: $w-frame;
+	&.open {
+		opacity: 1;
+		visibility: visible;
+		transform: translateX(0);
+		transition: 1s transform;
+	}
+}

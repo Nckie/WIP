@@ -1,0 +1,19 @@
+.frames {
+	.frame {
+		z-index: 4;
+		background-color: #b0f7d9;
+		&:nth-child(odd) {
+			width: 100%;
+			height: $w-frame;
+		}
+		&:nth-child(even) {
+			width: $w-frame;
+			height: 100%;
+		}
+		&.frame-top { top: 0; left: 0; }
+		&.frame-right { right: 0; }
+		&.frame-btm { bottom: 0; }
+		&.frame-left { left: 0; }
+	}
+
+}

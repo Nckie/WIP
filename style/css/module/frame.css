@@ -1,0 +1,2 @@
+.frame{background-color:#000}.frame:nth-child(odd){width:100%;height:15px}.frame:nth-child(even){width:15px;height:100%}.frame .frame-top{top:0}.frame .frame-right{right:0}.frame .frame-btm{bottom:0}.frame .frame-left{left:0}
+/*# sourceMappingURL=../style/css/module/frame.css.map */
